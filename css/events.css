@@ -23,7 +23,6 @@
 .event_details {
   display: flex;
   flex-direction: row;
-  /* margin-bottom: 5em; */
 }
 
 .event_date {
@@ -32,10 +31,26 @@
 }
 
 /******************** EVENT BUTTONS *******************/
+.event_add {
+  background: #ffffff;
+  color: #dc3545;
+  text-align: center;
+  padding: 1em 2em;
+  border-radius: 10px;
+  margin: 0 1em;
+  font-size: .8rem;
+}
+
+.event_add:hover {
+  cursor: pointer;
+  color: white;
+  background: #dc3545;
+}
+
 .event_edit, .event_delete {
+  background: #dc3545;
   flex-grow: 1;
   text-align: center;
-  background: #dc3545;
   padding: 1.5em;
   margin-left:2em;
   font-size: .6rem;
@@ -43,7 +58,16 @@
   border-radius: 1em;
 }
 
+.event_edit:hover, .event_delete:hover {
+  color: #dc3545;
+  background: #ffffff;
+}
+
 /******************** EVENT TIME ICON *******************/
-.far{
+.fa-plus {
+  margin-right: 1em;
+}
+
+.fa-calendar-alt{
   margin-right: 2em;
 }
