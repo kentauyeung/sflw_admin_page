@@ -19,19 +19,19 @@ main {
 .side_nav {
   list-style-type: none;
   padding-left: 0;
-  /* z-index: 1; */
 }
 
 .side_nav > li {
   padding:1em 2em;
   text-align: center;
+  border-bottom: 1px solid #424242;
 }
 
 .active {
   background: #dc3545;
 }
 .inactive {
-  background: #da6d77;
+  background: #606060;
 }
 
 .inactive:hover {
