@@ -1,3 +1,4 @@
+/* ************************* GLOBAL *****************************/
 main {
   font-family: sans-serif;
   display: grid;
@@ -9,6 +10,9 @@ main {
   background: grey;
 }
 
+.cat_background{
+  background: grey;
+}
 /* *************************BUTTON STYLING *****************************/
 .side_nav {
   list-style-type: none;
@@ -17,14 +21,20 @@ main {
 }
 
 .side_nav > li {
-  background: tomato;
   padding:1em 2em;
   border: 1px solid black;
   text-align: center;
 }
 
+.active {
+  background: #dc3545;
+}
+.inactive {
+  background: #da6d77;
+}
+
 li:hover {
-  background: blue;
+  background: #dc3545;
   cursor: pointer;
 }
 
@@ -34,10 +44,6 @@ a {
 }
 
 /* ************************* EVENTS *****************************/
-.events {
-  background: grey;
-  z-index: -1;
-}
 .event_title {
   margin-bottom: 0;
 }
