@@ -1,0 +1,62 @@
+main {
+  font-family: sans-serif;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  margin:0 5em;
+}
+
+.content_wrapper {
+  background: grey;
+}
+
+/* *************************BUTTON STYLING *****************************/
+.side_nav {
+  list-style-type: none;
+  padding-left: 0;
+  /* z-index: 1; */
+}
+
+.side_nav > li {
+  background: tomato;
+  padding:1em 2em;
+  border: 1px solid black;
+  text-align: center;
+}
+
+li:hover {
+  background: blue;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color:#fff;
+}
+
+/* ************************* EVENTS *****************************/
+.events {
+  background: grey;
+  z-index: -1;
+}
+.event_title {
+  margin-bottom: 0;
+}
+
+.event_description {
+  margin-top: 0;
+}
+
+.event_time {
+  margin-bottom: 5em;
+}
+
+/* ************************* ASSISTANCE *****************************/
+.assistance {
+  z-index: -1;
+}
+
+
+/* ************************* AUCTION *****************************/
+/* .auction {
+  z-index: 0;
+} */
