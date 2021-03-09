@@ -1,0 +1,49 @@
+.auction {
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+  font-size: 0.8rem;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-weight: bold;
+  margin:0;
+  padding: 1em 0;
+}
+
+li{
+  list-style-type: none;
+}
+
+.count {
+  flex-grow: 1;
+}
+
+.title {
+  flex-grow: 3;
+}
+
+.bidder {
+  flex-grow: 2;
+  text-align: center;
+}
+
+.contact {
+  flex-grow: 2;
+  text-align: center;
+}
+
+.bid {
+  flex-grow: 1;
+}
+
+.bid_details {
+  font-weight: normal;
+  font-size: .7rem;
+}
+ul:nth-child(odd) {
+  background: #606060;
+}

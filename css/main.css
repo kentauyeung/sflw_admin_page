@@ -34,7 +34,7 @@ main {
   background: #da6d77;
 }
 
-li:hover {
+.inactive:hover {
   background: #dc3545;
   cursor: pointer;
 }
