@@ -1,11 +1,49 @@
+.events{
+  /* padding-top: 2em; */
+}
+.event {
+  color: #fff;
+  padding: 2em 4em;
+}
+
 .event_title {
-  margin-bottom: 0;
+  font-size: 1.2rem;
+  margin-bottom: 5px;;
 }
 
 .event_description {
+  font-size: .8rem;
   margin-top: 0;
 }
 
-.event_time {
-  margin-bottom: 5em;
+.event:hover {
+  background: #606060;
+}
+/******************** EVENT DETAILS *******************/
+.event_details {
+  display: flex;
+  flex-direction: row;
+  /* margin-bottom: 5em; */
+}
+
+.event_date {
+  flex-grow: 5;
+  font-size: 0.8rem;
+}
+
+/******************** EVENT BUTTONS *******************/
+.event_edit, .event_delete {
+  flex-grow: 1;
+  text-align: center;
+  background: #dc3545;
+  padding: 1.5em;
+  margin-left:2em;
+  font-size: .6rem;
+  cursor: pointer;
+  border-radius: 1em;
+}
+
+/******************** EVENT TIME ICON *******************/
+.far{
+  margin-right: 2em;
 }

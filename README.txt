@@ -8,5 +8,6 @@ DASHBOARD
 
 color scheme
 red: #dc3545
-light grey: #424242
-mid grey: #292929
+light grey: #616060
+mid grey: #424242
+dark grey: #292929
